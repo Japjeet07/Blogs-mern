@@ -66,7 +66,7 @@ const Update=()=>{
             }
         }
         fetchData();
-    },[])
+    },[id])
 
     const updateBlogPost = async() => {
       
