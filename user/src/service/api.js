@@ -2,7 +2,7 @@ import axios from 'axios';
 import { API_NOTIFICATION_MSG,SERVICE_URL } from '../constant/config';
 import { getAccessToken ,getType} from '../utils/common-utils';
 
-const API_URL='https://blogs-mern-back.onrender.com';
+const API_URL='https://blogs-mern-backnew.onrender.com';
 const axiosinstance=axios.create({
    baseURL:API_URL,
    timeout:10000,
